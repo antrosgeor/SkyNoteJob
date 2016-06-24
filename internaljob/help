@@ -1,0 +1,80 @@
+MAP wed.
+	admin =>
+			ajax =>
+			config =>
+				css.php -> edo exoume olous tous sindesmous me .css
+				js.php	-> edo exoume olous tous sindesmous me .js
+				setup.php -> enosi me tin vasi, elexous, kai sindesmos me to data.
+			css =>
+			functions =>
+				data.php -> functions me erotimata pou ta pernai sto setup.
+				template.php ->
+			images =>
+			js =>
+			template => edo tha exoume ola ta pages pou tha einai sto body tis arxikis mas selidas.
+				footer.php
+					-> to kato meros tou site. 
+				header.php
+					-> to body tou site.
+				navifation.php
+					-> to menou
+			views =>
+			widgets=>
+			index.php
+			login.php
+			logout.php
+			uploads.php
+	config =>
+		connection.php 
+			-> enosi me tin vasi.
+		css.php 
+			-> olous tous sindesmous me .css kathos kai kodika css 
+		js.php	
+			-> olous tous sindesmous me .js kahtos kai kodika js
+		setup.php 
+			->  elexous, kai sindesmos me to data.
+	functions =>
+		data.php 
+			-> functions me erotimata pou ta pernai sto setup.
+		sandbox.php 
+			-> afto exei sxesei me to .htaccess
+		template.php 
+			->
+	images =>
+
+		-> ikones statikes gia to web
+	js =>
+
+		-> tinymce. einai gia to body. 
+	template => edo tha exoume ola ta pages pou tha einai sto body tis arxikis mas selidas.
+		footer.php
+			-> to kato meros tis selidas mas 
+		header.php
+			-> edo einai to body tou frontend.
+		navifation.php
+			-> edo einai to menou mas.
+	uploads =>
+
+		-> oi foto gia ta avatar .. tha apothikevonte edo kai apo edo tha tis kalo.
+	views =>
+
+		-> i basiki selida tou site.
+	widgets=>
+		debug.php
+			-> edo mas efanizi ola ta debug gia tous admin. me to 1 efanizi to button me to 0 to krivi.
+	index.php
+		-> edo exei xorista ola ta komatia sto .template.
+
+
+admin nav=
+	Dashboard
+	Messages
+	Pages
+	News
+	Type_job
+	Users	-> admin users, users
+	Contact
+	settings
+	
+
+user  nav=
